@@ -1,0 +1,26 @@
+{
+  "name": "nodejs-mail-sender",
+  "version": "1.0.0",
+  "main": "send-mail.js",
+  "scripts": {
+    "start": "node src/send-mail.js",
+    "dev": "nodemon --watch src src/send-mail.js"
+  },
+  "keywords": [],
+  "author": "Antonio Lucian",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mailgun": "^0.5.0",
+    "nodemailer": "^6.4.15",
+    "nodemailer-mailgun-transport": "^2.0.1",
+    "nodemailer-smtp-transport": "^2.7.4",
+    "pug": "^3.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  },
+  "description": ""
+}
